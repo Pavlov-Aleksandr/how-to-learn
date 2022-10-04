@@ -67,7 +67,7 @@ h1, h2, h3, div, img, p, section{
 }
 
 .header__main-illustration{
-  Background-size:contain;
+  background-size:contain;
   width:765px;
   height:608px;
   position: absolute;
