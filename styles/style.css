@@ -11,11 +11,10 @@
 .header {
   display:flex;
   height: 100vh;
-  min-height: 600px;
+  min-height: 600;
   max-height: 756px;
   background-color:#f2f2f2;
   position: relative;
-  z-index:0;
 }
 
 .logo {
@@ -34,14 +33,16 @@
 }
 
 .header__title{
-  display:flex;
-  align-items: center;
+  align-self: center;
   width: 730px;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   position: relative;
-  font-weight: 600px;
+  font-weight: 600;
+  z-index:2;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .header__subtitle{
@@ -52,13 +53,13 @@
   font-size:18px;
   font-weight: normal;
   position: absolute;
-  z-index:1;
-  margin-right: 0;
-  margin-top: 0;
+  z-index:2;
+  margin: 0 auto 0;
 }
 
 .header__link{
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__main-illustration{
@@ -104,6 +105,7 @@
   margin: 0;
   line-height:1.2;
   font-size:18px;
+  font-weight: normal;
   color: #2f80ed;
 }
 
@@ -120,10 +122,14 @@
   font-weight: normal;
 }
 
+p:last-child {
+  margin-bottom: 0;
+}
+
 .two-columns__span-accent {
   line-height: 34px;
   font-size:24px;
-  font-weight: 600px;
+  font-weight: 600;
 }
 
 /* digits Цифры и факты */
@@ -139,7 +145,7 @@
   width:60%;
   line-height: 1.15;
   font-size: 60px;
-  font-weight: 600px;
+  font-weight: 600;
   margin-left:auto;
   margin-right:auto;
   text-align: center;
@@ -151,9 +157,8 @@
   line-height: 34px;
   font-size:24px;
   font-weight: normal;
-  margin-left:auto;
-  margin-right:auto;
   text-align: center;
+  margin: 0 auto;
 }
 
 .table {
@@ -193,7 +198,8 @@
 .feynman {
   margin-bottom:0;
   background-color: #f2f2f2;
-  min-height:790px;
+  min-height:890px;
+  padding-top: 100px;
   background-image: url(../images/feynman.png);
   position: relative;
   background-size: 867px 637px;
@@ -201,19 +207,18 @@
   background-repeat: no-repeat;
 }
 
-.feynmann__title {
+.feynman__title {
+
   width:648px;
-  margin-top: 100px;
-  margin-left:auto;
-  margin-right:auto;
+  margin: 0 auto 0;
   margin-bottom:70px;
   text-align: center;
   line-height:1.15;
   font-size:120px;
-  font-weight: 600px;
+  font-weight: 600;
 }
 
-.feynmann__subtitle {
+.feynman__subtitle {
   line-height:51px;
   font-size:36px;
   font-weight:normal;
@@ -221,7 +226,7 @@
   margin:0;
 }
 
-.feynmann__link {
+.feynman__link {
   top:50%;
   right:48px;
   position: absolute;
@@ -238,7 +243,7 @@
   padding-top:90px;
   padding-bottom:90px;
   background-color: #1f1f1f;
-  color: #f2f2f2;
+  color: #fff;
   overflow:hidden;
   position:relative;
   z-index:1;
@@ -249,7 +254,7 @@
   width:60%;
   line-height: 1.15;
   font-size: 60px;
-  font-weight: 600px;
+  font-weight: 600;
   margin-left:auto;
   margin-right:auto;
   text-align: center;
@@ -270,16 +275,16 @@
   z-index:1;
 }
 
-.table_cell_theme_dark{
+.table__cell_theme_dark{
   width: 200px;
   margin-top: 80px;
-  color: #f2f2f2;
+  color: #fff;
 }
 
 .table_heading_theme_dark {
   line-height: 1.15;
   font-size:24px;
-  font-weight: 600px;
+  font-weight: 600;
   margin-top:0;
 }
 
@@ -290,7 +295,7 @@
   margin-top:20px;
 }
 
-.kaufman_triangle {
+.kaufman__triangle {
 
   width:877px;
   height:877px;
@@ -325,7 +330,7 @@
   margin-bottom: 0;
 }
 
-.footer_column_content_copyright {
+.footer__column_content_copyright {
   display:flex;
   flex-direction: column;
   flex-basis: 711px;
@@ -350,7 +355,7 @@
   line-height:25px;
   font-size:18px;
   font-weight: normal;
-  color: #f2f2f2;
+  color: #fff;
 }
 
 .footer__column_content_social {
@@ -367,8 +372,8 @@
   margin-bottom: 0;
   line-height: 30px;
   font-size: 18px;
-  font-weight: 600px;
-  color: #f2f2f2;
+  font-weight: 600;
+  color: #fff;
 }
 
 .footer__column-links {
@@ -377,7 +382,7 @@
   line-height:30px;
   font-size:18px;
   list-style: none;
-  color: #f2f2f2;
+  color: #fff;
   text-decoration: none;
   padding-left: 0;
 }
@@ -391,16 +396,16 @@
 }
 
 .footer__column-link {
-  margin:avto;
   line-height:30px;
   font-size:18px;
   list-style: none;
   text-decoration: none;
-  color: #f2f2f2;
+  color: #fff;
   font-weight: normal;
 }
 
-/*
+
 h1, h2, h3, div, img, p, section{
   border: 1px solid red;
-} */
+}
+*/
