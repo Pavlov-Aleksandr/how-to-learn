@@ -94,12 +94,7 @@ animation: rotation 20s linear infinite;
 
 /* description Главные проблемы в обучении */
 
-.description{
-  display:flex;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
+
 
 .two-columns {
   display:flex;
@@ -145,64 +140,14 @@ animation: rotation 20s linear infinite;
 
 /* technics_cards  Техника обучения */
 
-.techniques{
-  width: 80%;
-  margin-left: auto;
-  margin-right:auto;
-}
 
-.cards {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width:920px;
-  position:relative;
-}
 
-.cards__item {
-  width:250px;
-}
-.cards__image{
-  width: 160px;
-  height: 160px;
-  margin: 60px 40px 43px 40px;
-}
-
-.cards__title {
-  margin-bottom: 16px;
-  margin-top: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.cards__description {
-  line-height:23px;
-  font-size:18px;
-  font-weight: normal;
-  margin-top:20px;
-  margin-bottom:0px;
-}
 
 /* video Видео на TED */
 
-.video {
-
-}
-
-.video__iframes {
-  margin-left:auto;
-  margin-right:auto;
-}
-
-.video__iframe {
-  width: 515px;
-  height: 316px;
-}
-
 
 /* oakley Барбара Оакли */
+
 
 
 /* feynman Метод Фейнмана */
@@ -312,6 +257,72 @@ animation: rotation 20s linear infinite;
 }
 
 
+/* Khan */
+
+
+.Khan__author {
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.Khan__book-container {
+  display: flex;
+  margin-top: 68px;
+}
+
+.Khan__book-pic {
+  display: flex;
+  width: 620px;
+  height: 608px;
+  margin-right: 48px;
+}
+
+.Khan__buy-link {
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: normal;
+  margin: 0;
+  text-decoration: none;
+  color: #2f80ed;
+
+}
+
+.Khan__container {
+  width: 80%;
+}
+
+.Khan__quote-author-subline {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: normal;
+  margin: 0;
+}
+
+.Khan__quote-author {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.Khan__quote {
+  width: 790px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin: 50px 0 36px;
+}
+
+.Khan__title{
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: bold;
+  margin: 0;
+}
+
+
 /* kaufman Принцыпы обучения */
 
 .kaufman {
@@ -382,9 +393,13 @@ animation: rotation 20s linear infinite;
   z-index:-1;
 }
 
-/* oakley Барбара Оакли */
+/* resources Полезные ресурсы */
 
+.resourses__logo-zone
 
+.resources__logo_pic_polka
+
+.links-style
 
 /* footer Подвал */
 
@@ -482,7 +497,7 @@ animation: rotation 20s linear infinite;
   font-weight: normal;
 }
 
-
+/*
 h1, h2, h3, div, img, p, section{
   border: 1px solid red;
 }
