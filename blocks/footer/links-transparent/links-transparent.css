@@ -1,9 +1,0 @@
-.links-transparent {
-  -webkit-transition: opacity 0.7s ease-in;
-  -o-transition: opacity 0.7s ease-in;
-  transition: opacity 0.7s ease-in;
-}
-
-.links-transparent:hover {
-  opacity: .4;
-}
