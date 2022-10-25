@@ -2,9 +2,9 @@
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  column-gap: 100px;
   width:920px;
-  position:relative;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
